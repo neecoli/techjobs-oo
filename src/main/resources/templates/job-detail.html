@@ -9,7 +9,7 @@
 <div class="container body-content">
 
     <!-- // TODO #2 - display the job fields, one per row in a table -->
-                <table class = "job-listing">
+                <table th:fragment="single-job" class = "job-listing">
                     <tr>
                         <th>Name</th>
                         <td th:text="${someJob.name}"></td>
